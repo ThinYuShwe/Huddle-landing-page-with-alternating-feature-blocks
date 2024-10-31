@@ -63,6 +63,7 @@ footer {
 
 .intro {
   background-image: url(bg-hero-mobile.svg);
+  background-color: var(--veryPaleCyan);
   padding: 2rem;
   display: flex;
   flex-direction: column;
@@ -207,12 +208,17 @@ button {
   .intro {
     background-image: url(bg-hero-desktop.svg);
   }
+
+  header {
+    padding: 1rem;
+  }
+
   .intro .feature-block {
     display: flex;
     flex-direction: row;
     gap: 1.4rem;
     align-items: center;
-    padding: 2rem;
+    padding: 4rem;
   }
 
   .text-content h1,
@@ -257,7 +263,7 @@ button {
   }
 
   footer {
-    padding: 5rem;
+    padding: 6rem;
   }
 
   .locationANDcontract {
